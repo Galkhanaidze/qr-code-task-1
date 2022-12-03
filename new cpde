@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>QR Code Card</title>
+    <link rel="shortcut icon" href="static/icons/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #d5e1ef;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 100vh;
+      }
+      div {
+        width: 320px;
+        height: 497px;
+        background-color: #ffffff;
+        padding: 16px;
+        border-radius: 20px;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      h1 {
+        text-align: center;
+        color: #1f314f;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: Outfit;
+        padding: 8px 16px 0px 16px;
+      }
+
+      p {
+        color: #7d889e;
+        font-size: 15px;
+        letter-spacing: 0.19px;
+        font-weight: 400;
+        font-family: Outfit;
+        text-align: center;
+        margin: 0 32px 40px 32px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <img src="./image-qr-code.png" alt="QR Code In Box" />
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </body>
+</html>
